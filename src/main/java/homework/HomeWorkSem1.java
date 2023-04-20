@@ -1,9 +1,9 @@
 package homework;
 import java.util.Arrays;
-import java.util.OptionalInt;
 import java.util.Scanner;
-import java.util.Random;
 import java.time.LocalTime;
+//import java.util.Random;
+//import java.util.OptionalInt;
 
 public class HomeWorkSem1 {
     public static void main(String[] args) {

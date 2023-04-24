@@ -10,23 +10,19 @@ public class Task5 {
 
 
     public static void main(String[] args){
-
-        File dir = new File("C:\\Users\\user\\Desktop\\java.practic\\java.practic13042023");
-// если объект представляет каталог
+        File dir = new File("C:\\Users\\user\\Desktop\\java.practic\\java.practic13042023\\src\\main\\java\\lesson2");
         if(dir.isDirectory())
         {
-// получаем все вложенные объекты в каталоге
             for(File item : dir.listFiles()){
-
                 if(item.isDirectory()){
-
                     System.out.println(item.getName() + " \t folder");
                 }
                 else{
-
                     System.out.println(item.getName() + "\t file");
                 }
+
             }
         }
     }
 }
+

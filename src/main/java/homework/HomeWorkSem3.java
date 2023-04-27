@@ -45,7 +45,8 @@ public class HomeWorkSem3 {
 
         Scanner scanner = new Scanner(System.in);
         List<ArrayList<String>> bookList = new ArrayList<>();
-        int size = 2;
+
+        int size = 2;  // колличество книг
 
         for (int i = 0; i < size; i++) {
             System.out.printf("Введите Жанр книги: ");

@@ -10,6 +10,8 @@ public class HomeWorkSem4_2 {
         linkedList();
     }
 
+//      2. Пусть дан LinkedList с несколькими элементами. Реализуйте метод, который вернет “перевернутый” список.
+
     private static void linkedList() {
         LinkedList<String> inputList = new LinkedList<>();
         Collections.addAll(inputList, "1", "2", "3", "4", "5", "6");

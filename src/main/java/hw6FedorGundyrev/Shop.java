@@ -70,14 +70,14 @@ public class Shop {
     }
 
     private static Set Notebooks() {
-        Notebooks ApplePro1 = new Notebooks("Apple", "M2", "MacOS", 1024, 16, 290000);
-        Notebooks ApplePro2 = new Notebooks("Apple", "M2", "MacOS", 2048, 64, 340000);
-        Notebooks AppleAir = new Notebooks("Apple", "M1", "MacOS", 512, 16, 180000);
+        Notebooks ApplePro1 = new Notebooks("Apple", "M2", "MacOS", 512, 16, 290000);
+        Notebooks ApplePro2 = new Notebooks("Apple", "M2", "MacOS", 1024, 32, 340000);
+        Notebooks AppleAir = new Notebooks("Apple", "M1", "MacOS", 512, 8, 180000);
         Notebooks ASUSPro = new Notebooks("ASUS", "Intel", "Windows", 512, 16, 80000);
-        Notebooks ASUS2 = new Notebooks("ASUS", "AMD", "Windows", 2048, 64, 70300);
-        Notebooks SamsungNP960 = new Notebooks("Samsung", "Intel", "Windows", 512, 16, 420000);
-        Notebooks MSI1 = new Notebooks("MSI", "AMD", "Windows", 1024, 32, 90000);
-        Notebooks MSI2 = new Notebooks("MSI", "AMD", "Windows", 2048, 64, 125000);
+        Notebooks ASUS2 = new Notebooks("ASUS", "AMD", "Windows", 2048, 8, 70300);
+        Notebooks SamsungNP960 = new Notebooks("Samsung", "Intel", "Windows", 1024, 32, 420000);
+        Notebooks MSI1 = new Notebooks("MSI", "AMD", "Windows", 512, 8, 90000);
+        Notebooks MSI2 = new Notebooks("MSI", "AMD", "Windows", 1024, 16, 125000);
 
         Set<Notebooks> notebooksSet = new HashSet<>();
         notebooksSet.add(ApplePro1);
